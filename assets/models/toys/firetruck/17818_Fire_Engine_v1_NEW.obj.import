@@ -13,8 +13,9 @@ dest_files=[ "res://.import/17818_Fire_Engine_v1_NEW.obj-2fbd147b07b9f0897e3b79f
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

@@ -13,8 +13,9 @@ dest_files=[ "res://.import/beretta m9.obj-05aaa36e4c6ab9128860fed214f72850.mesh
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

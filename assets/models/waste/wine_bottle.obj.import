@@ -13,8 +13,9 @@ dest_files=[ "res://.import/wine_bottle.obj-6e4d7acb8e536eb35e3c58c5a3356c63.mes
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

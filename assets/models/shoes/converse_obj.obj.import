@@ -13,8 +13,9 @@ dest_files=[ "res://.import/converse_obj.obj-5f601c5680a46f8aed3fdd646d2ca21e.me
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

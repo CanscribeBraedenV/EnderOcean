@@ -39,223 +39,224 @@ text = "MOVEMENTS"
 valign = 1
 script = ExtResource( 3 )
 
-[node name="Forward" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="forward" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 55.0
 margin_right = 800.0
 margin_bottom = 95.0
 action = "forward"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/Forward" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/forward" index="0"]
 margin_right = 503.0
-text = "FORWARD"
+text = "Forward"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/Forward" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/forward" index="1"]
 margin_left = 507.0
 margin_right = 707.0
+text = "W"
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/Forward" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/forward" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/Forward" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/forward" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="Backwards" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="reverse" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 110.0
 margin_right = 800.0
 margin_bottom = 150.0
 action = "backwards"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/Backwards" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/reverse" index="0"]
 margin_right = 503.0
-text = "BACKWARDS"
+text = "Reverse"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/Backwards" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/reverse" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/Backwards" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/reverse" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/Backwards" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/reverse" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="StrafeLeft" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Strafe Left" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 165.0
 margin_right = 800.0
 margin_bottom = 205.0
 action = "strafe_left"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/StrafeLeft" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Strafe Left" index="0"]
 margin_right = 503.0
-text = "STRAFE_LEFT"
+text = "Strafe Left"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/StrafeLeft" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Strafe Left" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/StrafeLeft" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Strafe Left" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/StrafeLeft" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Strafe Left" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="StrafeRight" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Strafe Right" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 220.0
 margin_right = 800.0
 margin_bottom = 260.0
 action = "strafe_right"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/StrafeRight" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Strafe Right" index="0"]
 margin_right = 503.0
-text = "STRAFE_RIGHT"
+text = "Strafe Right"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/StrafeRight" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Strafe Right" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/StrafeRight" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Strafe Right" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/StrafeRight" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Strafe Right" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="RotateLeft" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Rotate Left" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 275.0
 margin_right = 800.0
 margin_bottom = 315.0
 action = "rotate_left"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/RotateLeft" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Rotate Left" index="0"]
 margin_right = 503.0
-text = "ROTATE_LEFT"
+text = "Rotate Left"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/RotateLeft" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Rotate Left" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/RotateLeft" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Rotate Left" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/RotateLeft" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Rotate Left" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="RotateRight" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Rotate Right" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 330.0
 margin_right = 800.0
 margin_bottom = 370.0
 action = "rotate_right"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/RotateRight" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Rotate Right" index="0"]
 margin_right = 503.0
-text = "ROTATE_RIGHT"
+text = "Rotate Right"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/RotateRight" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Rotate Right" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/RotateRight" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Rotate Right" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/RotateRight" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Rotate Right" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="Upwards" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Raise" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 385.0
 margin_right = 800.0
 margin_bottom = 425.0
 action = "upwards"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/Upwards" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Raise" index="0"]
 margin_right = 503.0
-text = "UPWARDS"
+text = "Raise"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/Upwards" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Raise" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/Upwards" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Raise" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/Upwards" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Raise" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="Downwards" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Dive" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 440.0
 margin_right = 800.0
 margin_bottom = 480.0
 action = "downwards"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/Downwards" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Dive" index="0"]
 margin_right = 503.0
-text = "DOWNWARDS"
+text = "Dive"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/Downwards" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Dive" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/Downwards" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Dive" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/Downwards" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Dive" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="SpeedUp" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Increase Speed" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 495.0
 margin_right = 800.0
 margin_bottom = 535.0
 action = "speed_up"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/SpeedUp" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Increase Speed" index="0"]
 margin_right = 503.0
-text = "SPEED_UP"
+text = "Increase Speed"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/SpeedUp" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Increase Speed" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/SpeedUp" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Increase Speed" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/SpeedUp" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Increase Speed" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="SpeedDown" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Decrease Speed" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 550.0
 margin_right = 800.0
 margin_bottom = 590.0
 action = "speed_down"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/SpeedDown" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Decrease Speed" index="0"]
 margin_right = 503.0
-text = "SPEED_DOWN"
+text = "Decrease Speed"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/SpeedDown" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Decrease Speed" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/SpeedDown" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Decrease Speed" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/SpeedDown" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Decrease Speed" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
@@ -269,113 +270,113 @@ text = "TOOLS"
 valign = 1
 script = ExtResource( 3 )
 
-[node name="ToolOpen" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Open Tool" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 660.0
 margin_right = 800.0
 margin_bottom = 700.0
 action = "tool_open"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/ToolOpen" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Open Tool" index="0"]
 margin_right = 503.0
-text = "TOOL_OPEN"
+text = "Open Tool"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/ToolOpen" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Open Tool" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/ToolOpen" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Open Tool" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/ToolOpen" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Open Tool" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="ToolClose" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Close Tool" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 715.0
 margin_right = 800.0
 margin_bottom = 755.0
 action = "tool_close"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/ToolClose" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Close Tool" index="0"]
 margin_right = 503.0
-text = "TOOL_CLOSE"
+text = "Close Tool"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/ToolClose" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Close Tool" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/ToolClose" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Close Tool" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/ToolClose" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Close Tool" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="ToolSwitch" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Switch Tool" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 770.0
 margin_right = 800.0
 margin_bottom = 810.0
 action = "tool_switch"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/ToolSwitch" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Switch Tool" index="0"]
 margin_right = 503.0
-text = "TOOL_SWITCH"
+text = "Switch Tool"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/ToolSwitch" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Switch Tool" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/ToolSwitch" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Switch Tool" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/ToolSwitch" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Switch Tool" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="LightsUp" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Lights Up" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 825.0
 margin_right = 800.0
 margin_bottom = 865.0
 action = "lights_up"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/LightsUp" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Lights Up" index="0"]
 margin_right = 503.0
-text = "LIGHTS_UP"
+text = "Lights Up"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/LightsUp" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Lights Up" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/LightsUp" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Lights Up" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/LightsUp" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Lights Up" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="LightsDown" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Lights Down" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 880.0
 margin_right = 800.0
 margin_bottom = 920.0
 action = "lights_down"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/LightsDown" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Lights Down" index="0"]
 margin_right = 503.0
-text = "LIGHTS_DOWN"
+text = "Lights Down"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/LightsDown" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Lights Down" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/LightsDown" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Lights Down" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/LightsDown" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Lights Down" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
@@ -389,91 +390,91 @@ text = "CAMERA"
 valign = 1
 script = ExtResource( 3 )
 
-[node name="CameraUp" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Camera Up" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 990.0
 margin_right = 800.0
 margin_bottom = 1030.0
 action = "camera_up"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/CameraUp" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Camera Up" index="0"]
 margin_right = 503.0
-text = "CAMERA_UP"
+text = "Camera Up"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/CameraUp" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Camera Up" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/CameraUp" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Camera Up" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/CameraUp" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Camera Up" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="CameraDown" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Camera Down" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 1045.0
 margin_right = 800.0
 margin_bottom = 1085.0
 action = "camera_down"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/CameraDown" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Camera Down" index="0"]
 margin_right = 503.0
-text = "CAMERA_DOWN"
+text = "Camera Down"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/CameraDown" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Camera Down" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/CameraDown" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Camera Down" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/CameraDown" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Camera Down" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="CameraSwitch" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Switch Camera" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 1100.0
 margin_right = 800.0
 margin_bottom = 1140.0
 action = "camera_switch"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/CameraSwitch" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Switch Camera" index="0"]
 margin_right = 503.0
-text = "CAMERA_SWITCH"
+text = "Switch Camera"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/CameraSwitch" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Switch Camera" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/CameraSwitch" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Switch Camera" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/CameraSwitch" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Switch Camera" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
-[node name="CameraExternalToggle" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
+[node name="Toggle External Camera" parent="ScrollContainer/VBoxContainer" instance=ExtResource( 2 )]
 margin_top = 1155.0
 margin_right = 800.0
 margin_bottom = 1195.0
 action = "camera_external_toggle"
 
-[node name="Label" parent="ScrollContainer/VBoxContainer/CameraExternalToggle" index="0"]
+[node name="Label" parent="ScrollContainer/VBoxContainer/Toggle External Camera" index="0"]
 margin_right = 503.0
-text = "CAMERA_EXTERNAL_TOGGLE"
+text = "Toggle External Camera"
 
-[node name="Input" parent="ScrollContainer/VBoxContainer/CameraExternalToggle" index="1"]
+[node name="Input" parent="ScrollContainer/VBoxContainer/Toggle External Camera" index="1"]
 margin_left = 507.0
 margin_right = 707.0
 
-[node name="Space" parent="ScrollContainer/VBoxContainer/CameraExternalToggle" index="2"]
+[node name="Space" parent="ScrollContainer/VBoxContainer/Toggle External Camera" index="2"]
 margin_left = 711.0
 margin_right = 731.0
 
-[node name="Reset" parent="ScrollContainer/VBoxContainer/CameraExternalToggle" index="3"]
+[node name="Reset" parent="ScrollContainer/VBoxContainer/Toggle External Camera" index="3"]
 margin_left = 735.0
 margin_right = 800.0
 
@@ -521,22 +522,22 @@ text = "already used"
 align = 1
 valign = 1
 
-[editable path="ScrollContainer/VBoxContainer/Forward"]
-[editable path="ScrollContainer/VBoxContainer/Backwards"]
-[editable path="ScrollContainer/VBoxContainer/StrafeLeft"]
-[editable path="ScrollContainer/VBoxContainer/StrafeRight"]
-[editable path="ScrollContainer/VBoxContainer/RotateLeft"]
-[editable path="ScrollContainer/VBoxContainer/RotateRight"]
-[editable path="ScrollContainer/VBoxContainer/Upwards"]
-[editable path="ScrollContainer/VBoxContainer/Downwards"]
-[editable path="ScrollContainer/VBoxContainer/SpeedUp"]
-[editable path="ScrollContainer/VBoxContainer/SpeedDown"]
-[editable path="ScrollContainer/VBoxContainer/ToolOpen"]
-[editable path="ScrollContainer/VBoxContainer/ToolClose"]
-[editable path="ScrollContainer/VBoxContainer/ToolSwitch"]
-[editable path="ScrollContainer/VBoxContainer/LightsUp"]
-[editable path="ScrollContainer/VBoxContainer/LightsDown"]
-[editable path="ScrollContainer/VBoxContainer/CameraUp"]
-[editable path="ScrollContainer/VBoxContainer/CameraDown"]
-[editable path="ScrollContainer/VBoxContainer/CameraSwitch"]
-[editable path="ScrollContainer/VBoxContainer/CameraExternalToggle"]
+[editable path="ScrollContainer/VBoxContainer/forward"]
+[editable path="ScrollContainer/VBoxContainer/reverse"]
+[editable path="ScrollContainer/VBoxContainer/Strafe Left"]
+[editable path="ScrollContainer/VBoxContainer/Strafe Right"]
+[editable path="ScrollContainer/VBoxContainer/Rotate Left"]
+[editable path="ScrollContainer/VBoxContainer/Rotate Right"]
+[editable path="ScrollContainer/VBoxContainer/Raise"]
+[editable path="ScrollContainer/VBoxContainer/Dive"]
+[editable path="ScrollContainer/VBoxContainer/Increase Speed"]
+[editable path="ScrollContainer/VBoxContainer/Decrease Speed"]
+[editable path="ScrollContainer/VBoxContainer/Open Tool"]
+[editable path="ScrollContainer/VBoxContainer/Close Tool"]
+[editable path="ScrollContainer/VBoxContainer/Switch Tool"]
+[editable path="ScrollContainer/VBoxContainer/Lights Up"]
+[editable path="ScrollContainer/VBoxContainer/Lights Down"]
+[editable path="ScrollContainer/VBoxContainer/Camera Up"]
+[editable path="ScrollContainer/VBoxContainer/Camera Down"]
+[editable path="ScrollContainer/VBoxContainer/Switch Camera"]
+[editable path="ScrollContainer/VBoxContainer/Toggle External Camera"]

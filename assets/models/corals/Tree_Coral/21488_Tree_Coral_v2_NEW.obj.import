@@ -13,8 +13,9 @@ dest_files=[ "res://.import/21488_Tree_Coral_v2_NEW.obj-1a2818393ecf12c7d7f6463f
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

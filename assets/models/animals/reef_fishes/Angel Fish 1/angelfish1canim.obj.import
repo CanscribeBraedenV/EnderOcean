@@ -13,8 +13,9 @@ dest_files=[ "res://.import/angelfish1canim.obj-a882a82e45432e63e5ae7f69d15a87bd
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

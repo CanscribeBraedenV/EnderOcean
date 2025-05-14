@@ -13,8 +13,9 @@ dest_files=[ "res://.import/wooden crate.obj-8619c7f37984e659f72846954e22092d.me
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

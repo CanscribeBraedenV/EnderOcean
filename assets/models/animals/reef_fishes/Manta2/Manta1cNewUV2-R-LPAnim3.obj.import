@@ -13,8 +13,9 @@ dest_files=[ "res://.import/Manta1cNewUV2-R-LPAnim3.obj-18fe5ab0b35d3d06c08a5f65
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

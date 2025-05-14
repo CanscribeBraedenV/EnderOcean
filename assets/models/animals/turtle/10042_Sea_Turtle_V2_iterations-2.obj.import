@@ -13,8 +13,9 @@ dest_files=[ "res://.import/10042_Sea_Turtle_V2_iterations-2.obj-3f400da7a6a1064
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

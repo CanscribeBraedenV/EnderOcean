@@ -201,8 +201,8 @@ surfaces/0 = {
 top_radius = 1.6
 
 [sub_resource type="CylinderShape" id=51]
-radius = 0.0255625
 height = 0.132427
+radius = 0.0255625
 
 [sub_resource type="SphereShape" id=52]
 radius = 0.160743

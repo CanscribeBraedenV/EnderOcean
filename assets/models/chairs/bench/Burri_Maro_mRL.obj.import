@@ -13,8 +13,9 @@ dest_files=[ "res://.import/Burri_Maro_mRL.obj-f835189a3e67a1e1ca86a5d7bdeafddb.
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true

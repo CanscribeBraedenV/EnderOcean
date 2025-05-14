@@ -13,8 +13,9 @@ dest_files=[ "res://.import/pilotfish.obj-f8f592ec8868655562d8d996ab4df4fe.mesh"
 
 [params]
 
-generate_tangents=true
 scale_mesh=Vector3( 1, 1, 1 )
 offset_mesh=Vector3( 0, 0, 0 )
-octahedral_compression=true
 optimize_mesh_flags=4286
+generate_tangents=true
+vertex_cache_optimization=true
+octahedral_compression=true
