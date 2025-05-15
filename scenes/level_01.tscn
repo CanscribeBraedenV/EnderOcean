@@ -379,6 +379,7 @@ visible = true
 [node name="HTerrain" type="Spatial" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 2.704, -160, 3, -155 )
 script = ExtResource( 3 )
+lod_scale = 2.0
 map_scale = Vector3( 0.53, 0.53, 0.51 )
 _terrain_data = ExtResource( 12 )
 chunk_size = 32
@@ -898,15 +899,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego01"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego01"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -921,15 +913,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego02"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego02"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -944,15 +927,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego03"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego03"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -967,15 +941,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego04"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego04"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -990,15 +955,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego05"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego05"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1013,15 +969,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego06"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego06"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1035,15 +982,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego07"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego07"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1057,15 +995,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego08"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego08"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1079,15 +1008,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego09"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego09"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1101,15 +1021,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego10"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego10"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1123,15 +1034,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego11"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego11"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1145,15 +1047,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego12"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego12"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1167,15 +1060,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego13"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego13"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1189,15 +1073,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego14"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego14"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1211,15 +1086,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego15"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego15"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1233,15 +1099,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego16"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego16"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1255,15 +1112,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego17"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego17"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1277,15 +1125,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego18"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego18"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1299,15 +1138,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego19"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego19"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1321,15 +1151,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego20"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego20"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1343,15 +1164,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego21"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego21"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1365,15 +1177,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego22"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego22"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
@@ -1387,15 +1190,6 @@ objective_type = 1
 [node name="MeshInstance" type="MeshInstance" parent="Lego23"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )
 mesh = ExtResource( 15 )
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
 
 [node name="CollisionShape" type="CollisionShape" parent="Lego23"]
 transform = Transform( 0.01, 0, 0, 0, 0.01, 0, 0, 0, 0.01, 0, 0, 0 )

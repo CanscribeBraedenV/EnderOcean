@@ -159,7 +159,7 @@ transform = Transform( -0.998367, -1.8596e-09, 0.0571282, 0.0271268, 0.880072, 0
 script = ExtResource( 6 )
 
 [node name="HelpPanel" type="PanelContainer" parent="HBoxContainer/GameView"]
-visible = false
+visible = true
 modulate = Color( 1, 1, 1, 0.619608 )
 anchor_top = 1.0
 anchor_bottom = 1.0

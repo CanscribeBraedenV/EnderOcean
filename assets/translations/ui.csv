@@ -48,8 +48,7 @@ ERROR_OCCURED,Error occured,Erreur survenue
 04_Title,04 - Outdoor missions,04 - Missions réelles
 04_Description,Participate to our events and collect as many waste as you can,Participez à nos événements et collectez un maximum de déchets
 04_Button,SHOW EVENTS,EVENEMENTS
-HELP,"
-H: Show / Hide help (This page)
+HELP,"H: Show / Hide help (This page)
 ESC: Menu
 
 ROV:
@@ -66,9 +65,8 @@ F: Change tool
 
 G - Free external camera <> Vehicle
 To use free external camera:
-Hold left button + A/W/S/D + Q/E
-
-","H - Afficher l'aide (cette page)
+Hold left button + A/W/S/D + Q/E","
+H - Afficher l'aide (cette page)
 ESC - Menu Pause
 
 ROV :
