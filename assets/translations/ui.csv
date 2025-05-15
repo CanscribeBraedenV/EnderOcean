@@ -49,24 +49,25 @@ ERROR_OCCURED,Error occured,Erreur survenue
 04_Description,Participate to our events and collect as many waste as you can,Participez à nos événements et collectez un maximum de déchets
 04_Button,SHOW EVENTS,EVENEMENTS
 HELP,"
-H - Toggle Help (this)
-ESC - Pause menu
+H: Show / Hide help (This page)
+ESC: Menu
 
 ROV:
-Z (or W) / S: Forward/Backwards
-Q (or A) / D: Strafe left/right
-Up: Rise
-Down: Dive
-Left/Right: Yaw left/right
-L/M: Camera tilt down/up
-A (or Q) / E: Open/close gripper
-F1/F2: Decrease/Increase speed
-F3/F4: Decrease/Increase lights
-U: Change tool
+W / S: Forward/Backwards
+Q / E: Strafe left/right
+Space: Rise
+Control: Dive
+A / D: Rotate left/right
+V / C: Camera tilt down/up
+Z / X: Open/close gripper
+F1 / F2: Decrease/Increase speed
+F3 / F4: Decrease/Increase lights
+F: Change tool
 
-C - Free external camera <> Vehicle
+G - Free external camera <> Vehicle
 To use free external camera:
 Hold left button + A/W/S/D + Q/E
+
 ","H - Afficher l'aide (cette page)
 ESC - Menu Pause
 
