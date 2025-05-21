@@ -1,22 +1,22 @@
 keys,en,fr
 tutorial_01,MOVING,MOUVEMENTS
 tutorial_01_title,MOVING,MOUVEMENTS
-tutorial_01_description,"Learn how to move the ROV(W,A,S,D,Q,E,SPACE,CONTROL)",Apprenez à déplacer le robot
+tutorial_01_description,"Learn how to move the ROV. Using the thumbsticks, move around the pool and guide the ROV through the red circles.",Apprenez à déplacer le robot
 tutorial_02,SPEED,VITESSE
 tutorial_02_title,SPEED,VITESSE
-tutorial_02_description,"Learn how to change speeds on the ROV(F1,F2)",Apprenez à changer de vitesse
+tutorial_02_description,"Learn how to change speeds on the ROV. Using the D-Pad(Up and Down), increase and decrease the movement power of the ROV.",Apprenez à changer de vitesse
 tutorial_03,LIGHTS,LUMIÈRES
 tutorial_03_title,LIGHTS,LUMIÈRES
-tutorial_03_description,"Learn how to use the lights on the ROV(F3,F4)",Apprenez à utiliser les lumières
+tutorial_03_description,"Learn how to use the lights on the ROV. Using the D-Pad(Left and Right), Change the brightness of the ROV lights and find the 3 hidden objects.",Apprenez à utiliser les lumières
 tutorial_04,GRIPPER,PINCE
 tutorial_04_title,GRIPPER,PINCE
-tutorial_04_description,"Learn how to use the gripper tool(Z,X)",Apprenez à utiliser la pince
+tutorial_04_description,"Learn how to use the gripper tool. Using the Triggers, use the gripper tool to pickup and deposit the 3 objects into the net.",Apprenez à utiliser la pince
 tutorial_05,VACUUM,ASPIRATEUR
 tutorial_05_title,VACUUM,ASPIRATEUR
-tutorial_05_description,"Learn how to use the vacuum cleaner(Z,X)",Apprenez à utiliser l'aspirateur
+tutorial_05_description,"Learn how to use the vacuum cleaner. Search the pool for the small red balls and vacuum them up.",Apprenez à utiliser l'aspirateur
 tutorial_06,CUTTER,CISAILLE
 tutorial_06_title,CUTTER,CISAILLE
-tutorial_06_description,"Learn how to use the cutter tool(Z,X)",Apprenez à utiliser la cisaille
+tutorial_06_description,"Learn how to use the cutter tool. Using the triggers, cut the 4 red net sections.",Apprenez à utiliser la cisaille
 tutorial_07,MAGNET & GRAPPLING HOOK,AIMANT & GRAPPIN
 tutorial_07_title,MAGNET & GRAPPLING HOOK,AIMANT & GRAPPIN
-tutorial_07_description,Learn how to use the magnet and grappling hook,Apprenez à remonter des objets à l'aide d'un aimant et d'un grappin
+tutorial_07_description,"Learn how to use the magnet and grappling hook. Use the gripper tool to connect the hook to the fence, then connect the magnet to the scooter.",Apprenez à remonter des objets à l'aide d'un aimant et d'un grappin
