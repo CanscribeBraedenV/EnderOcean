@@ -48,20 +48,26 @@ ERROR_OCCURED,Error occured,Erreur survenue
 04_Title,04 - Outdoor missions,04 - Missions réelles
 04_Description,Participate to our events and collect as many waste as you can,Participez à nos événements et collectez un maximum de déchets
 04_Button,SHOW EVENTS,EVENEMENTS
-HELP,"H: Show / Hide help (This page)
+HELP,"H, Y-Button: Show / Hide help (This page)
 ESC: Menu
 
 ROV:
-W / S: Forward/Backwards
-Q / E: Strafe left/right
-Space: Rise
-Control: Dive
-A / D: Rotate left/right
-V / C: Camera tilt down/up
-Z / X: Open/close gripper
-F1 / F2: Decrease/Increase speed
-F3 / F4: Decrease/Increase lights
-F: Change tool
+W, Left Stick Up / S, Left Stick Down: Forward/Backwards
+A, Right Stick Left / D, Right Stick Right: Rotate left/right
+Q, Left Stick Left / E, Left Stick Right: Strafe left/right
+Space, Right Stick Up: Rise
+Control, Right Stick Down: Dive
+
+V, Right Bumper(RB) / C, Left Bumper(LB): Camera Tilt Down/Up
+Z, Left Trigger(LT) / X, Right Trigger(RT): Open/Close Gripper
+
+F1, D-Pad Up / F2, D-Pad Down: Decrease/Increase Speed
+F3, D-Pad Left / F4, D-Pad Right: Lights Down/Up
+
+F, Back: Change tool
+R, X-Button: Reset
+G, A-Button: Switch Camera
+F5: Toggle External Camera
 
 G - Free external camera <> Vehicle
 To use free external camera:
