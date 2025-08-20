@@ -115,6 +115,7 @@ __meta__ = {
 }
 
 [node name="Introduction" type="Button" parent="HBoxContainer/LevelButtons"]
+visible = false
 margin_right = 250.0
 margin_bottom = 60.0
 rect_min_size = Vector2( 0, 60 )
@@ -123,24 +124,24 @@ text = "GAMEPLAY"
 script = ExtResource( 11 )
 
 [node name="Tutorials" type="Button" parent="HBoxContainer/LevelButtons"]
-margin_top = 70.0
 margin_right = 250.0
-margin_bottom = 130.0
+margin_bottom = 60.0
 rect_min_size = Vector2( 0, 60 )
 custom_fonts/font = ExtResource( 8 )
 text = "TUTORIALS"
 script = ExtResource( 11 )
 
 [node name="Campaign" type="Button" parent="HBoxContainer/LevelButtons"]
-margin_top = 140.0
+margin_top = 70.0
 margin_right = 250.0
-margin_bottom = 200.0
+margin_bottom = 130.0
 rect_min_size = Vector2( 0, 60 )
 custom_fonts/font = ExtResource( 8 )
 text = "PLAY"
 script = ExtResource( 11 )
 
 [node name="BookSession" type="Button" parent="HBoxContainer/LevelButtons"]
+visible = false
 margin_top = 210.0
 margin_right = 250.0
 margin_bottom = 270.0

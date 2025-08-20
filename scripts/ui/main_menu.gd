@@ -62,9 +62,9 @@ func _on_Practice_pressed() -> void:
 
 func _on_Campaign_pressed() -> void:
 	# User is not connected
-	if SaveManager.user.empty():
-		SceneLoader.load_scene("res://scenes/ui/login.tscn")
-		return
+	#if SaveManager.user.empty():
+		#SceneLoader.load_scene("res://scenes/ui/login.tscn")
+		#return
 	
 	SceneLoader.load_scene("res://scenes/ui/missions.tscn")
 
