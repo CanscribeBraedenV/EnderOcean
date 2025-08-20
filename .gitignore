@@ -18,3 +18,5 @@ Godot_v3.4.4-stable_x11.64
 # Project ignores
 api.cfg
 export_presets.cfg
+.vscode/settings.json
+assets/models/tools/camera/10124_SLR_Camera_V1_Diffuse.jpg.import
