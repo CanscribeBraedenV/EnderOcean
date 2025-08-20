@@ -16,11 +16,6 @@ This simulation is a first step before to control real underwater robots to coll
 - Respect plants and animals.
 
 
-## Download
-
-Download video game directly on our Website: https://www.enderocean.com
-
-
 ## Audience
 
 <img src="https://pegi.info/sites/default/files/inline-images/age-3-black_0.jpg" width="50px" />
