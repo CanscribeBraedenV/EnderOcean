@@ -4,7 +4,7 @@
 [ext_resource path="res://scenes/components/water.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/logo_ecodds.png" type="Texture" id=3]
 [ext_resource path="res://assets/logo_rna.png" type="Texture" id=4]
-[ext_resource path="res://assets/your-logo-here.png" type="Texture" id=5]
+[ext_resource path="res://assets/Logo_3.png" type="Texture" id=5]
 [ext_resource path="res://scripts/level/level.gd" type="Script" id=6]
 [ext_resource path="res://assets/sounds/Ender-Ambient-Underwater-Loop.wav" type="AudioStream" id=7]
 [ext_resource path="res://scenes/components/player_camera.tscn" type="PackedScene" id=8]
@@ -48,16 +48,16 @@ _data = {
 "tilts": PoolRealArray( 0, 0, 0, 0, 0 )
 }
 
-[sub_resource type="PlaneMesh" id=22]
+[sub_resource type="PlaneMesh" id=31]
 
-[sub_resource type="SpatialMaterial" id=26]
+[sub_resource type="SpatialMaterial" id=32]
+albedo_texture = ExtResource( 4 )
+
+[sub_resource type="SpatialMaterial" id=33]
 albedo_texture = ExtResource( 3 )
 
-[sub_resource type="SpatialMaterial" id=23]
+[sub_resource type="SpatialMaterial" id=34]
 albedo_texture = ExtResource( 5 )
-
-[sub_resource type="SpatialMaterial" id=25]
-albedo_texture = ExtResource( 4 )
 
 [node name="Tutorial 07" type="Spatial"]
 script = ExtResource( 6 )
@@ -122,21 +122,6 @@ to = NodePath("../Ender Station/GrapplingHookTheterAnchor")
 destination_path = NodePath("../Ender Station/PullDestination")
 pulling_speed = 100.0
 
-[node name="Ads_panel_01" type="MeshInstance" parent="."]
-transform = Transform( 1.50996e-07, -1, 8.74228e-08, 0, -4.37114e-08, -2, 2, 7.54979e-08, -6.60024e-15, 19.348, 3, -1.73744 )
-mesh = SubResource( 22 )
-material/0 = SubResource( 26 )
-
-[node name="Ads_panel_02" type="MeshInstance" parent="."]
-transform = Transform( 6.55671e-07, -1, 7.64274e-15, 2.18557e-07, 1.91069e-15, -2, 5, 1.31134e-07, 8.74228e-08, 19.348, 3, 7.65464 )
-mesh = SubResource( 22 )
-material/0 = SubResource( 23 )
-
-[node name="Ads_panel_03" type="MeshInstance" parent="."]
-transform = Transform( 3.01992e-07, -1, 8.74228e-08, 0, -4.37114e-08, -2, 4, 7.54979e-08, -6.60024e-15, 19.348, 3, -10.0963 )
-mesh = SubResource( 22 )
-material/0 = SubResource( 25 )
-
 [node name="MagnetDeliveryTool" parent="." instance=ExtResource( 14 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -5.98918, -1.07197, -3.71182 )
 magnet_force = 10.0
@@ -149,3 +134,18 @@ transform = Transform( 1, 0, 0, 0, 0.173645, 0.984808, 0, -0.984808, 0.173645, -
 
 [node name="Barrier" parent="." instance=ExtResource( 17 )]
 transform = Transform( 1, 0, 0, 0, 0.0290817, 0.999577, 0, -0.999577, 0.0290817, 0, -1.32, -2.6 )
+
+[node name="Ads_panel_01" type="MeshInstance" parent="."]
+transform = Transform( 3.01992e-07, -1, 8.74228e-08, 0, -4.37114e-08, -2, 4, 7.54979e-08, -6.60024e-15, 19.348, 3, -12 )
+mesh = SubResource( 31 )
+material/0 = SubResource( 32 )
+
+[node name="Ads_panel_02" type="MeshInstance" parent="."]
+transform = Transform( 1.50996e-07, -1, 8.74228e-08, 0, -4.37114e-08, -2, 2, 7.54979e-08, -6.60024e-15, 19.348, 3, -5 )
+mesh = SubResource( 31 )
+material/0 = SubResource( 33 )
+
+[node name="Ads_panel_03" type="MeshInstance" parent="."]
+transform = Transform( 0, -1, 0, 0, 0, -2, 10, 0, 0, 19.348, 3, 8 )
+mesh = SubResource( 31 )
+material/0 = SubResource( 34 )
