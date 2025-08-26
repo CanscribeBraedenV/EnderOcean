@@ -1,4 +1,4 @@
-[gd_scene load_steps=76 format=2]
+[gd_scene load_steps=77 format=2]
 
 [ext_resource path="res://scenes/components/player_camera.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/logo_ender.png" type="Texture" id=2]
@@ -52,8 +52,8 @@ textures = [ [ ExtResource( 12 ), ExtResource( 7 ), ExtResource( 7 ), ExtResourc
 
 [sub_resource type="Curve3D" id=59]
 _data = {
-"points": PoolVector3Array( 0, 0, 0, 0, 0, 0, 76.8164, 0.584378, 11.5627, 0, 0, 0, 0, 0, 0, 53.0654, -8.08471, 13.9701 ),
-"tilts": PoolRealArray( 0, 0 )
+"points": PoolVector3Array( 0, 0, 0, 0, 0, 0, 79.983, -1.40091, 42.5324 ),
+"tilts": PoolRealArray( 0 )
 }
 
 [sub_resource type="Curve3D" id=48]
@@ -117,8 +117,8 @@ albedo_texture = ExtResource( 37 )
 extents = Vector3( 0.757509, 1, 1 )
 
 [sub_resource type="CylinderShape" id=24]
-radius = 0.05
 height = 0.124861
+radius = 0.05
 
 [sub_resource type="SpatialMaterial" id=38]
 albedo_color = Color( 1, 0, 0, 1 )
@@ -201,6 +201,7 @@ shadow_enabled = true
 [node name="HTerrain" type="Spatial" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -12, 0 )
 script = ExtResource( 6 )
+lod_scale = 2.0
 _terrain_data = ExtResource( 9 )
 chunk_size = 32
 collision_enabled = true
@@ -223,10 +224,10 @@ visible = true
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 42.272, -9.247, 54.29 )
 
 [node name="Theter" parent="." instance=ExtResource( 23 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.0153, 0, 34.484 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -11.015, 0, 0 )
 curve = SubResource( 59 )
-from = NodePath("../BlueRov")
-to = NodePath("../BoatPath/PathFollower/Ender Station/TheterAnchor")
+from = NodePath("../BoatPath/PathFollower/Ender Station/TheterAnchor")
+to = NodePath("../BlueRov")
 
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 8 )
@@ -239,7 +240,7 @@ curve = SubResource( 48 )
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 68.9555, 0, 54.5619 )
 loop = false
 script = ExtResource( 39 )
-speed = 0.5
+speed = 0.3
 use_unit_offset = false
 
 [node name="Marlow66" type="MeshInstance" parent="BoatPath/PathFollower"]
@@ -247,32 +248,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00300598, -0.0999999, 1.7833
 mesh = ExtResource( 24 )
 skeleton = NodePath("../../..")
 material/0 = SubResource( 14 )
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
-material/9 = null
-material/10 = null
-material/11 = null
-material/12 = null
-material/13 = null
-material/14 = null
-material/15 = null
-material/16 = null
-material/17 = null
-material/18 = null
-material/19 = null
-material/20 = null
-material/21 = null
-material/22 = null
-material/23 = null
-material/24 = null
-material/25 = null
-material/26 = null
 
 [node name="Ender Station" type="MeshInstance" parent="BoatPath/PathFollower"]
 transform = Transform( 0.399999, 0, -7.45058e-08, 0, 0.4, 0, 7.45058e-08, 0, 0.399999, 0.118462, 0.57565, -8.543 )
@@ -287,22 +262,6 @@ transform = Transform( 3, 2.11758e-22, 0, 0, 2, -2.98023e-08, 0, 2.98023e-08, 2,
 transform = Transform( -0.699309, 0, 0.0310826, 0, 0.7, 0, -0.0310826, 0, -0.699309, -0.0580902, -0.48762, -5.21231 )
 mesh = ExtResource( 27 )
 skeleton = NodePath("../../../BlueRov")
-material/0 = null
-material/1 = null
-material/2 = null
-material/3 = null
-material/4 = null
-material/5 = null
-material/6 = null
-material/7 = null
-material/8 = null
-material/9 = null
-material/10 = null
-material/11 = null
-material/12 = null
-material/13 = null
-material/14 = null
-material/15 = null
 
 [node name="DeliveryNet" parent="BoatPath/PathFollower/Dasti net" instance=ExtResource( 26 )]
 transform = Transform( -0.994443, 0, -0.872256, 0, 1.42857, 0, 0.937116, 0, -0.925615, 6.13819, -7.84937, -0.0298462 )
