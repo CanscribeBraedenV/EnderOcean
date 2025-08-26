@@ -1,7 +1,7 @@
 keys,en,fr
 LEVEL_01_COUNTRY,UNITED KINGDOM,ROYAUME-UNI
 LEVEL_01_LOCATION,#1 - The Bristol Channel,#1 - Le Canal de Bristol
-LEVEL _01_DESCRIPTION,"Back in 1997, the Tokio Express cargo got caught in the middle of a storm and lost most of its containers at sea. While the majority stayed intact on the seabed, some of them were breached and leaked their content into the ocean.
+LEVEL _01_DESCRIPTION,"Back in 1997, the Tokio Express cargo ship got caught in the middle of a storm and lost most of its containers at sea. While the majority stayed intact on the seabed, some of them were breached and leaked their content into the ocean.
 
 We’ve localized one that contained many Legos and other plastic toys. Ironically, most of them had a nautical theme.
 ","En 1997, la cargaison Tokio Express a été prise au milieu d'une tempête et a perdu la plupart de ses conteneurs en mer. Alors que la majorité est restée intacte dans le fond marin, certains d'entre eux ont été percés et ont laissé échapper leur contenu dans l'océan.
@@ -13,7 +13,7 @@ LEVEL_01_TOOLS_01,Vacuum Cleaner,Aspirateur
 LEVEL_01_TOOLS_02,Lights,Lumières
 LEVEL_02_COUNTRY,GERMANY,ALLEMAGNE
 LEVEL_02_LOCATION,#2 - The Rhine,#2 - Le Rhin
-LEVEL_02_DESCRIPTION,"Each day, over 191.6 million microplastics are discharged towards the North Sea from the Rhine due to the many industries set around it. It’s hard to realize what that means, so we’ll send you see it yourself.
+LEVEL_02_DESCRIPTION,"Each day, over 191.6 million microplastics are discharged towards the North Sea from the Rhine due to the many industries set around it. It’s hard to realize what that means, so we’ll send you to see it yourself.
 
 Your task will be to collect at least 50 microbullets in 4 minutes.
 ","Chaque jour, plus de 191,6 millions de microplastiques sont rejetés vers la mer du Nord depuis le Rhin en raison des nombreuses industries installées dans la zone. Il est difficile de réaliser ce que cela signifie, alors nous vous envoyons sur site pour le constater par vous-même.
@@ -23,34 +23,34 @@ LEVEL_02_OBJECTIVES_01,Collect as many microplastics as you can,Collectez autant
 LEVEL_02_OBJECTIVES_02,Have fun!,Amusez-vous!
 LEVEL_03_COUNTRY,FRANCE,FRANCE
 LEVEL_03_LOCATION,#3 - Bordeaux stone quarry,#3 - Carrière de pierre Bordelaise
-LEVEL_03_DESCRIPTION,"Still in 2022, many quaries near Bordeaux are invaded by savage pollution. Authorities do not know anymore how to fight against incivilities. 
+LEVEL_03_DESCRIPTION,"Still in 2022, many quarries near Bordeaux are invaded by savage pollution. Authorities do not know how to fight against incivilities anymore. 
 
-Please help to clean the area ! And be careful with algues...
+Please help to clean the area ! And be careful with algaes...
 ","Toujours en 2022, de nombreuses carrières près de Bordeaux sont envahies par une pollution sauvage. Les autorités ne savent plus comment lutter contre les incivilités.
 
 S'il vous plaît, aidez-nous à nettoyer la zone ! Et faîtes attention aux algues..."
 LEVEL_03_OBJECTIVES_01,Collect 4 items,Collectez 4 objets
-LEVEL_03_OBJECTIVES_02,Drop it into the net,Déposez-les dans le filet
+LEVEL_03_OBJECTIVES_02,Drop each item into the net,Déposez-les dans le filet
 LEVEL_04_COUNTRY,FRANCE,FRANCE
 LEVEL_04_LOCATION,#4 - The Marseille Bay,#4 - La baie de Marseille
-LEVEL_04_DESCRIPTION,"Marseille is considered the 10th most polluted coastal town in the Mediterannean sea. This issue can get problematic in many unexpected ways : for environment as well as human activities.
+LEVEL_04_DESCRIPTION,"Marseille is considered the 10th most polluted coastal town in the Mediterannean sea. This issue can get problematic in many unexpected ways : for human activities as well as the environment.
 
 We’ve been asked to localize and deal with
 a disturbance on an underwater cable in the area. These cables connect Europe with many other continents online, it would cause a lot of trouble if they were damaged.
 ","Marseille est considérée comme la 10ème ville côtière la plus polluée de la mer Méditerranée. Cette question peut devenir problématique de bien des manières, pour l'environnement comme pour les activités humaines.
 
 Nous avons été mandatés pour traiter une perturbation sur un câble sous-marin dans la zone. Ces câbles relient l'Europe à de nombreux autres continents en ligne, cela causerait beaucoup de problèmes s'ils étaient endommagés."
-LEVEL_04_OBJECTIVES_01,Find what cause the cable to beunstable,Trouvez ce qui rend le câble instable
-LEVEL_04_OBJECTIVES_02,Collect items on the way,Collectez des objets sur la route
+LEVEL_04_OBJECTIVES_01,Collect items along the cable,Trouvez ce qui rend le câble instable
+LEVEL_04_OBJECTIVES_02,Discover what disabled the cable,Collectez des objets sur la route
 LEVEL_05_COUNTRY,EGYPT,EGYPTE
 LEVEL_05_LOCATION,#5 - The Nile Delta,#5 - Le Delta du Nil
-LEVEL_05_DESCRIPTION,"With all of its population living accross the Nile, it’s not surprising to see that Egypt is one of the main source of plastic pollution of the mediterranean sea, especially with the biggest plastic production of the arabic world.
+LEVEL_05_DESCRIPTION,"With all of its population living accross the Nile, it’s not surprising to see that Egypt is one of the main sources of plastic pollution of the Mediterranean sea, especially with the biggest plastic production of the Arabic world.
 
-To help against this, we implemented a few ROVs along the most problematic parts of its delta. Try to catch everything every plastic you'll find!
+To help against this, we implemented a few ROVs along the most problematic parts of its delta. Try to catch every piece of plastic you find!
 ","Avec toute sa population vivant de l'autre côté du Nil, il n'est pas surprenant de voir que l'Egypte est l'une des principales sources de pollution plastique de la mer méditerranée, notamment avec la plus grande production de plastique du monde arabe.
 
 Pour contrer cela, nous avons mis en place quelques ROV le long des parties les plus problématiques de son delta. Essayez d'attraper tous les déchets que vous trouverez !"
-LEVEL_05_OBJECTIVES_01,Catch 4 items beforethey get lost into the mediterranean sea,Attrapez 4 objets avant qu'ils ne se perdent dans la mer Méditerranée
+LEVEL_05_OBJECTIVES_01,Catch 4 items before they get lost into the Mediterranean Sea,Attrapez 4 objets avant qu'ils ne se perdent dans la mer Méditerranée
 LEVEL_06_COUNTRY,SOUDAN,SOUDAN
 LEVEL_06_LOCATION,#6 - Red Sea,#6 - La Mer Rouge
 LEVEL_06_DESCRIPTION,"The Red Sea is one of the only coral reefs that hasn’t been affected by climate change. Nevertheless, it is still particularly endangered due to human activity.

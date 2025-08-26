@@ -2,22 +2,22 @@ keys,en,fr
 COLLECTIBLE_NOT_FOUND_YET,Collectible not found yet...,Objet non trouvé...
 COLLECTIBLE_OBTAINED,Collectible found!,Objet de collection trouvé !
 COLLECTIBLE_TITLE_01,Milk pack,Brique de lait
-COLLECTIBLE_DESCRIPTION_01,"The brick is recycling...and it’s very good. So it’s a shame to find it underwater. 
+COLLECTIBLE_DESCRIPTION_01,"The brick is recyclable...and it’s very good. So it’s a shame to find it underwater. 
 
-Generally, it consists of 75% cardboard, 20% plastic (polyethylene) and 5% aluminum. So go to the recycling bin (yellow) and forget the garbage bin (grey).
+Generally, it consists of 75% cardboard, 20% plastic (polyethylene) and 5% aluminum. So go to the recycling bin (blue) and forget the garbage bin (grey).
 ","La brique se recycle… et même très bien. Il est donc fort dommage d’en retrouver au fond de nos océans.
 -
 De manière générale, elle est composée de 75 % de carton, 20% de plastique (polyéthylène) et 5% d’aluminium. Donc direction le bac de recyclage (jaune) et oubliez le bac des ordures ménagères (gris).
 "
 COLLECTIBLE_TITLE_02,Plastic soldier,Soldat en plastique
-COLLECTIBLE_DESCRIPTION_02,"Sometimes, as a result of boat accidents, cargo ends up in the water and is never recovered. It is therefore not surprising that you find this little soldier. The poor must feel alone without his brothers in arms. 
+COLLECTIBLE_DESCRIPTION_02,"Sometimes, as a result of boat accidents, cargo ends up in the water and is never recovered. It is therefore not surprising that you find this little soldier. The poor guy must feel alone without his brothers in arms. 
 The most famous plastic toy is certainly the Barbie doll, which has made its appearance in the late 1950s. Its sales have now exceeded the billion!
 ","Il arrive que suite à des accidents de bateaux, des cargaisons se retrouvent à l’eau et ne sont jamais récupérées. Il n’est donc pas surprenant que vous trouviez ce petit soldat. Le pauvre doit se sentir seul sans ses frères d’armes.
 -
 La poupée Barbie a quant à elle fait son apparition à la fin des années 1950. Ses ventes ont aujourd’hui dépassé le milliard !
 "
 COLLECTIBLE_TITLE_03,Plastic bag,Sac plastique
-COLLECTIBLE_DESCRIPTION_03,"Turtles often mistakenly confuse plastic bags with jellyfish, which are part of their diet. Limiting their use saves them and limits the pollution of our oceans.
+COLLECTIBLE_DESCRIPTION_03,"Turtles often mistakenly confuse plastic bags with jellyfish, which are part of their diet. Limiting plastic bag use saves turtles and limits the pollution of our oceans.
 
 Alternatives: 
     • A multi-purpose fabric bag
@@ -39,7 +39,7 @@ According to a study published in the journal Nature Communications, more than 2
 Selon une étude publiée dans la revue Nature Communications, plus de 200.000 tonnes de minuscules particules de plastique émanant des pneus et des plaquettes de frein de nos véhicules sont emportées chaque année par le vent, des routes jusque dans les océans.
 "
 COLLECTIBLE_TITLE_05,Sailboat pulley,Poulie de bateau
-COLLECTIBLE_DESCRIPTION_05,"Oh oh… A traveller who is going to be disappointed when he will realize that he is missing this key item on his sailboat.
+COLLECTIBLE_DESCRIPTION_05,"Uh oh… A traveller who is going to be disappointed when he will realize that he is missing this key item on his sailboat.
 In 2020, the number of pleasure craft registered in marine waters was 1.041 million, up 0.7% from 2019. The fleet remained largely dominated by 773,333 engine units, accounting for 74%.
 ","Oh oh… Un voyageur qui va être déçu quand il va se rendre compte qui lui manque un objet important sur son voilier. On espère pour lui qu’il en a une de rechange pour attacher ses haubans.
 -
