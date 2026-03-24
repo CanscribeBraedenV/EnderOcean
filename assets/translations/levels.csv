@@ -7,7 +7,7 @@ We’ve localized one that contained many Legos and other plastic toys. Ironical
 ","En 1997, la cargaison Tokio Express a été prise au milieu d'une tempête et a perdu la plupart de ses conteneurs en mer. Alors que la majorité est restée intacte dans le fond marin, certains d'entre eux ont été percés et ont laissé échapper leur contenu dans l'océan.
 
 Nous en avons localisé un qui contenait de nombreux legos et autres jouets en plastique. Ironiquement, la plupart d'entre eux avaient un thème nautique."
-LEVEL_01_OBJECTIVES_01,Clean up the red Lego pieces scattered along the seabed,Retrouvez le conteneur perdu
+LEVEL_01_OBJECTIVES_01,Clean up the blue Lego pieces scattered along the seabed,Retrouvez le conteneur perdu
 LEVEL_01_OBJECTIVES_02,Locate the Lost Container,Nettoyez le de tout le plastique qu'il contient encore
 LEVEL_01_TOOLS_01,Vacuum Cleaner,Aspirateur
 LEVEL_01_TOOLS_02,Lights,Lumières
@@ -35,7 +35,7 @@ LEVEL_04_COUNTRY,FRANCE,FRANCE
 LEVEL_04_LOCATION,#4 - The Marseille Bay,#4 - La baie de Marseille
 LEVEL_04_DESCRIPTION,"Marseille is considered the 10th most polluted coastal town in the Mediterannean sea. This issue can get problematic in many unexpected ways : for human activities as well as the environment.
 
-We’ve been asked to localize and deal with
+We’ve been asked to locate and deal with
 a disturbance on an underwater cable in the area. These cables connect Europe with many other continents online, it would cause a lot of trouble if they were damaged.
 ","Marseille est considérée comme la 10ème ville côtière la plus polluée de la mer Méditerranée. Cette question peut devenir problématique de bien des manières, pour l'environnement comme pour les activités humaines.
 
