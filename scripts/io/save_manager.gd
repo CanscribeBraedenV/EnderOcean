@@ -1,6 +1,8 @@
 extends Node
 
 const SAVE_FILE: String = "user://save"
+var desktop = str(OS.get_system_dir(OS.SYSTEM_DIR_DESKTOP))
+var SAVE_EXTERN = desktop + "/Grades.upload_to_brightspace"
 
 var tutorials: Dictionary = {}
 var levels: Dictionary = {}
@@ -44,12 +46,14 @@ func load_data() -> void:
 		return
 
 	var data: Dictionary = file.get_var(true)
+	tutorials = data.get("tutorials", tutorials)
 	levels = data.get("levels", levels)
 	collectibles = data.get("collectibles", collectibles)
 	settings = data.get("settings", settings)
 	user = data.get("user", user)
 	file.close()
 	print("Loaded data from ", ProjectSettings.globalize_path(SAVE_FILE))
+	print( OS.get_system_dir(OS.SYSTEM_DIR_DESKTOP))
 
 
 func save_data() -> void:
@@ -69,6 +73,19 @@ func save_data() -> void:
 	file.store_var(data, true)
 	file.close()
 	print("Saved data in ", ProjectSettings.globalize_path(SAVE_FILE))
+
+	var extern = File.new()
+	var save_error: int = extern.open(SAVE_EXTERN, File.WRITE)
+	if save_error != OK:
+		printerr("Error while opening file to save grades.")
+		return
+	data.erase("settings")
+	data.erase("user")
+	data["ID"] = OS.get_unique_id()
+	printerr("Saving grades file")
+	extern.store_string(JSON.print(data))
+	extern.close()
+	
 
 
 func get_default_inputs() -> Dictionary:
